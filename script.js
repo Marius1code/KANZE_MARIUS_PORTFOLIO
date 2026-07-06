@@ -54,17 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
       copy: "Interfaces, applications métier et intégrations web.",
       tags: ["HTML5", "CSS3", "JavaScript", "PHP", "Symfony", "Next.js", "Node.js", "Bootstrap", "API REST", "MySQL"]
     },
-    {
-      title: "Développement mobile",
-      icon: "fa-solid fa-mobile-screen-button",
-      copy: "Applications Android et solutions multiplateformes.",
-      tags: ["Flutter", "Applications natives"]
-    },
+   
     {
       title: "IoT & embarqué",
       icon: "fa-solid fa-microchip",
       copy: "Projets connectés, supervision et contrôle d'équipements.",
-      tags: ["ESP32", "Capteurs", "Automatisation", "Suivi de consommation"]
+      tags: ["ESP32", "Capteurs", "Automatisation"]
     },
     {
       title: "Desktop",
@@ -76,13 +71,19 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Architecture & conception",
       icon: "fa-solid fa-diagram-project",
       copy: "Cadrage, modélisation et organisation des flux techniques.",
-      tags: ["UML", "MCD", "MLD", "Architecture logicielle", "Conception d'API", "Auth 2FA", "Gestion des rôles"]
+      tags: ["UML", "MCD", "MLD", "Architecture logicielle", "Conception d'API"]
     },
     {
       title: "Outils",
       icon: "fa-solid fa-toolbox",
       copy: "Environnement de travail, versioning et déploiement.",
       tags: ["Git", "GitHub", "VS Code", "Déploiement", "Maintenance applicative"]
+    }
+    , {
+      title: "Développement mobile",
+      icon: "fa-solid fa-mobile-screen-button",
+      copy: "Applications Android et solutions multiplateformes.",
+      tags: ["Flutter", "Applications natives"]
     }
   ];
 
