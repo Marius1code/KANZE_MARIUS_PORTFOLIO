@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Développement web",
       icon: "fa-solid fa-code",
-      copy: "Conception et intégration de sites, dashboards et plateformes métier avec une structure propre et évolutive.",
-      points: ["Front-end propre", "Back-end fiable", "API et intégration"]
+      copy: "Création de sites vitrines, boutiques en ligne et applications métier adaptés aux besoins de votre activité.",
+      points: ["Sites et plateformes web", "E-commerce et gestion", "Interfaces administratives"]
     },
     {
       title: "Applications mobiles",
@@ -40,10 +40,40 @@ document.addEventListener("DOMContentLoaded", () => {
       points: ["ESP32", "Capteurs", "Supervision temps réel"]
     },
     {
-      title: "Architecture et API",
+      title: "Intégration de services et d'API",
       icon: "fa-solid fa-diagram-project",
-      copy: "Cadrage technique, conception d'architecture, découpage des modules et intégration de services.",
-      points: ["UML / MCD / MLD", "Conception API", "Documentation"]
+      copy: "Connexion de vos applications à des services externes pour simplifier les échanges et enrichir les fonctionnalités.",
+      points: ["API et webhooks", "Notifications et e-mails", "Services tiers"]
+    },
+    {
+      title: "Paiement et facturation",
+      icon: "fa-solid fa-credit-card",
+      copy: "Mise en place de parcours de paiement et d'outils de suivi adaptés à votre activité et à vos clients.",
+      points: ["Paiement en ligne", "Mobile Money compatible", "Facturation et suivi"]
+    },
+    {
+      title: "Maintenance et assistance",
+      icon: "fa-solid fa-screwdriver-wrench",
+      copy: "Suivi technique de vos sites et applications pour corriger les problèmes et faire évoluer vos outils.",
+      points: ["Correction de bugs", "Performance et SEO technique", "Sécurité et évolutions"]
+    },
+    {
+      title: "Hébergement et déploiement",
+      icon: "fa-solid fa-cloud-arrow-up",
+      copy: "Mise en production de vos projets et configuration des services nécessaires à leur bon fonctionnement.",
+      points: ["Hébergement et VPS", "Domaines et certificats SSL", "Bases de données et sauvegardes"]
+    },
+    {
+      title: "Automatisation et intelligence artificielle",
+      icon: "fa-solid fa-wand-magic-sparkles",
+      copy: "Automatisation de tâches et intégration de fonctionnalités numériques pour améliorer la productivité.",
+      points: ["Tâches répétitives", "Fonctionnalités d'IA", "Génération de documents"]
+    },
+    {
+      title: "Conseil numérique",
+      icon: "fa-solid fa-compass-drafting",
+      copy: "Accompagnement de la définition du besoin jusqu'au choix d'une solution adaptée à votre activité.",
+      points: ["Analyse des besoins", "Cahier des charges", "Choix des technologies"]
     }
   ];
 
@@ -51,43 +81,84 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Développement web",
       icon: "fa-solid fa-code",
-      copy: "Interfaces, applications métier et intégrations web.",
+      copy: "Création d'interfaces, de boutiques et d'applications métier.",
       tags: ["HTML5", "CSS3", "JavaScript", "PHP", "Symfony", "Next.js", "Node.js", "Bootstrap", "API REST", "MySQL"]
     },
-   
     {
-      title: "IoT & embarqué",
+      title: "E-commerce et paiements",
+      icon: "fa-solid fa-cart-shopping",
+      copy: "Parcours de commande, gestion commerciale et suivi des transactions.",
+      tags: ["Catalogue et variantes", "Panier et commandes", "Paiement à la livraison", "Mobile Money", "Facturation", "Suivi des paiements"]
+    },
+    {
+      title: "API et services externes",
+      icon: "fa-solid fa-plug",
+      copy: "Échanges de données et fonctionnalités connectées aux applications.",
+      tags: ["API REST", "Webhooks", "Notifications", "E-mails", "SMS", "OTP à 6 chiffres"]
+    },
+    {
+      title: "Mobile et IoT",
       icon: "fa-solid fa-microchip",
-      copy: "Projets connectés, supervision et contrôle d'équipements.",
-      tags: ["ESP32", "Capteurs", "Automatisation"]
+      copy: "Applications mobiles, objets connectés et supervision d'équipements.",
+      tags: ["Flutter", "Android natif", "ESP32", "Capteurs", "Supervision", "Contrôle à distance"]
     },
     {
-      title: "Desktop",
-      icon: "fa-solid fa-desktop",
-      copy: "Outils de bureau, cartographie et optimisation de données.",
-      tags: ["Python", "Tkinter", "WinDev"]
+      title: "Déploiement et maintenance",
+      icon: "fa-solid fa-server",
+      copy: "Mise en ligne, sécurisation et suivi des applications en production.",
+      tags: ["Hébergement", "VPS", "Domaines et SSL", "Bases de données", "Sauvegardes", "Git / GitHub", "SEO technique"]
     },
     {
-      title: "Architecture & conception",
+      title: "Automatisation et IA",
+      icon: "fa-solid fa-gears",
+      copy: "Automatisation de flux et intégration de fonctionnalités pour réduire les tâches manuelles.",
+      tags: ["Automatisation", "Intégration IA", "Génération de documents", "Services tiers"]
+    },
+    {
+      title: "Conception et conseil",
       icon: "fa-solid fa-diagram-project",
-      copy: "Cadrage, modélisation et organisation des flux techniques.",
-      tags: ["UML", "MCD", "MLD", "Architecture logicielle", "Conception d'API"]
-    },
-    {
-      title: "Outils",
-      icon: "fa-solid fa-toolbox",
-      copy: "Environnement de travail, versioning et déploiement.",
-      tags: ["Git", "GitHub", "VS Code", "Déploiement", "Maintenance applicative"]
-    }
-    , {
-      title: "Développement mobile",
-      icon: "fa-solid fa-mobile-screen-button",
-      copy: "Applications Android et solutions multiplateformes.",
-      tags: ["Flutter", "Applications natives"]
+      copy: "Cadrage fonctionnel et conception de solutions cohérentes avec les objectifs métier.",
+      tags: ["Analyse des besoins", "Cahier des charges", "UML", "MCD / MLD", "Architecture", "Python", "Cartographie"]
     }
   ];
 
   const projects = [
+    {
+      category: "E-commerce / Matériel informatique",
+      title: "Hardware 229",
+      desc: "Boutique en ligne de matériel informatique au Bénin : catalogue avec variantes, panier et commandes avec paiement à la réception en espèces ou Mobile Money.",
+      impact: "Suivi de commande par SMS, confirmation de compte par code à 6 chiffres et administration du stock, des ventes, retours, livraisons et équipes.",
+      tags: ["E-commerce", "Mobile Money", "SMS / OTP", "Stock", "Administration", "Exports CSV"],
+      siteUrl: "https://hardware229.vercel.app",
+      image: makeProjectThumb("Hardware 229", "#6ca7ff", "#ff8a4d")
+    },
+    {
+      category: "SaaS / Gestion des équipes",
+      title: "PGP MEHD CONSULT",
+      desc: "Plateforme de pilotage de la performance qui centralise le pointage, le scoring, la validation par les managers et les tableaux de bord de direction.",
+      impact: "Parcours de l'agent à la direction, évaluations trimestrielles et données isolées par entreprise avec gestion des rôles.",
+      tags: ["SaaS", "Multi-entreprises", "Scoring", "Tableaux de bord", "Gestion des rôles"],
+      siteUrl: "https://pgp.mehdconsult.bj/",
+      image: makeProjectThumb("PGP MEHD", "#72d39f", "#6ca7ff")
+    },
+    {
+      category: "Web / Gestion PME",
+      title: "Stockora",
+      desc: "Solution de gestion de stocks et de suivi d'activité pour PME et MPME, avec traçabilité et historique.",
+      impact: "Aide au suivi des mouvements et à la visibilité sur l'activité.",
+      tags: ["Gestion de stock", "Traçabilité", "Historique", "PME / MPME"],
+      siteUrl: "https://stockora-app.onerender.com",
+      image: makeProjectThumb("Stockora", "#7b88ff", "#6ca7ff")
+    },
+    {
+      category: "Web / Photo et documents professionnels",
+      title: "Onesnapid",
+      desc: "Plateforme de création de photos professionnelles (identité, permis, scolaire, passeport) et de cartes personnalisées, adaptées aux formats de différents pays et imprimeurs.",
+      impact: "Création de cartes pour une ou plusieurs personnes en une seule opération, avec mise au format d'impression.",
+      tags: ["Photo d'identité", "Cartes professionnelles", "Génération en lot", "Formats d'impression"],
+      siteUrl: "https://onesnapid-lbtech.site",
+      image: makeProjectThumb("Onesnapid", "#c66bff", "#6ca7ff")
+    },
     {
       category: "SaaS / Maintenance",
       title: "SIGMI Africa - GMAO",
@@ -116,15 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
       image: makeProjectThumb("PetFeeder", "#ff8a4d", "#f5b27f")
     },
     {
-      category: "Web / Gestion PME",
-      title: "Stockora",
-      desc: "Solution de gestion de stocks et de suivi d'activité pour PME/MPME, avec traçabilité et historique.",
-      impact: "Aide au suivi d'activité et à la prise de décision.",
-      tags: ["PHP", "MySQL", "Gestion de stock"],
-      siteUrl: "",
-      image: makeProjectThumb("Stockora", "#7b88ff", "#6ca7ff")
-    },
-    {
       category: "Mobile / Play Store",
       title: "Gotchéké",
       desc: "Application mobile de recherche de produits avec comptes utilisateurs, API dédiée et optimisation ASO.",
@@ -132,15 +194,6 @@ document.addEventListener("DOMContentLoaded", () => {
       tags: ["Android", "Java", "API", "ASO"],
       siteUrl: "",
       image: makeProjectThumb("Gotchéké", "#72d39f", "#8fd0e6")
-    },
-    {
-      category: "Web / Traitement image",
-      title: "Onesnapid",
-      desc: "Application web intégrant RemoveBG pour le détourage automatique d'images.",
-      impact: "Gain de temps pour la préparation d'assets visuels.",
-      tags: ["JavaScript", "API RemoveBG", "PHP"],
-      siteUrl: "",
-      image: makeProjectThumb("Onesnapid", "#c66bff", "#6ca7ff")
     },
     {
       category: "SIG / Optimisation",
@@ -243,8 +296,8 @@ document.addEventListener("DOMContentLoaded", () => {
       col.className = "col-md-6 col-lg-4";
       col.setAttribute("data-reveal", "");
       const siteAction = project.siteUrl
-        ? `<a href="${project.siteUrl}" target="_blank" rel="noopener" class="mk-project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le site</a>`
-        : `<span class="mk-project-link is-disabled"><i class="fa-solid fa-link-slash"></i> Lien à brancher</span>`;
+        ? `<a href="${project.siteUrl}" target="_blank" rel="noopener noreferrer" class="mk-project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Voir le projet</a>`
+        : `<span class="mk-project-link is-disabled"><i class="fa-solid fa-link-slash"></i> Lien bientôt disponible</span>`;
 
       col.innerHTML = `
         <article class="mk-project-card">
@@ -255,7 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="mk-project-category">${project.category}</div>
             <h3 class="mk-project-title">${project.title}</h3>
             <p class="mk-project-desc">${project.desc}</p>
-            <p class="mk-service-copy"><strong>Impact:</strong> ${project.impact}</p>
+            <p class="mk-service-copy"><strong>À retenir :</strong> ${project.impact}</p>
             <div class="mk-project-tags">
               ${project.tags.map((tag) => `<span class="mk-tag">${tag}</span>`).join("")}
             </div>
