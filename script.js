@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       category: "SaaS / Gestion des équipes",
-      title: "PGP MEHD CONSULT",
+      title: "PGP",
       desc: "Plateforme de pilotage de la performance qui centralise le pointage, le scoring, la validation par les managers et les tableaux de bord de direction.",
       impact: "Parcours de l'agent à la direction, évaluations trimestrielles et données isolées par entreprise avec gestion des rôles.",
       tags: ["SaaS", "Multi-entreprises", "Scoring", "Tableaux de bord", "Gestion des rôles"],
@@ -158,72 +158,13 @@ document.addEventListener("DOMContentLoaded", () => {
       tags: ["Photo d'identité", "Cartes professionnelles", "Génération en lot", "Formats d'impression"],
       siteUrl: "https://onesnapid-lbtech.site",
       image: makeProjectThumb("Onesnapid", "#c66bff", "#6ca7ff")
-    },
-    {
-      category: "SaaS / Maintenance",
-      title: "SIGMI Africa - GMAO",
-      desc: "Plateforme de gestion de maintenance assistée par ordinateur pour bâtiments, équipements, interventions et suivi des techniciens.",
-      impact: "Cadrage de la maintenance, suivi opérationnel et tableau de bord centralisé.",
-      tags: ["Symfony", "MySQL", "API REST", "Dashboard"],
-      siteUrl: "",
-      image: makeProjectThumb("SIGMI Africa", "#6ca7ff", "#ff8a4d")
-    },
-    {
-      category: "IoT / Smart Building",
-      title: "SIGMI Africa - Smart Monitoring",
-      desc: "Application de supervision énergétique pour le suivi en temps réel de la consommation électrique et d'eau via ESP32.",
-      impact: "Contrôle à distance et visualisation claire des données terrain.",
-      tags: ["ESP32", "IoT", "Dashboard", "Capteurs"],
-      siteUrl: "",
-      image: makeProjectThumb("Smart Monitoring", "#8fd0e6", "#6ca7ff")
-    },
-    {
-      category: "IoT / Connecté",
-      title: "PetFeeder - Kanlicedadunu",
-      desc: "Distributeur automatique intelligent avec pilotage à distance, bracelet connecté et historique des consommations.",
-      impact: "Expérience produit orientée confort et contrôle à distance.",
-      tags: ["IoT", "Application Web", "Embarqué"],
-      siteUrl: "",
-      image: makeProjectThumb("PetFeeder", "#ff8a4d", "#f5b27f")
-    },
-    {
-      category: "Mobile / Play Store",
-      title: "Gotchéké",
-      desc: "Application mobile de recherche de produits avec comptes utilisateurs, API dédiée et optimisation ASO.",
-      impact: "Produit mobile publié avec approche acquisition.",
-      tags: ["Android", "Java", "API", "ASO"],
-      siteUrl: "",
-      image: makeProjectThumb("Gotchéké", "#72d39f", "#8fd0e6")
-    },
-    {
-      category: "SIG / Optimisation",
-      title: "Planification réseau fibre optique",
-      desc: "Application Python calculant un tracé optimisé de réseau fibre avec carte interactive et optimisation des coûts.",
-      impact: "Optimisation de parcours et visualisation cartographique.",
-      tags: ["Python", "Folium", "NetworkX", "Algorithme génétique"],
-      siteUrl: "",
-      image: makeProjectThumb("Fibre Network", "#ffb36b", "#ff8a4d")
-    },
-    {
-      category: "Web / Éducation",
-      title: "Plateforme universitaire",
-      desc: "Gestion des actualités, admissions, pré-inscriptions, vérification des diplômes et partenariats.",
-      impact: "Centralisation des parcours étudiants et des informations utiles.",
-      tags: ["PHP", "MySQL", "Authentification"],
-      siteUrl: "",
-      image: makeProjectThumb("University", "#6ca7ff", "#72d39f")
     }
   ];
 
-  const moreProjects = [
-    { title: "Project Pro", desc: "Outil de rédaction de projets pour gestionnaires, étudiants et PME." },
-    { title: "Cours à domicile", desc: "Réservation de cours, paiement et gestion enseignants / étudiants." },
-    { title: "Site de tourisme", desc: "Cartes interactives, hôtels, restaurants et attractions touristiques." },
-    { title: "E-commerce téléphones", desc: "Catalogue, panier, paiement et gestion des commandes." }
-  ];
 
   const experience = [
-    { date: "Avr. 2026 - Aujourd'hui", role: "Placement professionnel", org: "KNR Expertises - Stage, Cotonou (12e Arr.)", desc: "Développement au sein de l'équipe produit et contribution aux plateformes web de l'entreprise." },
+    { date: "Juil. 2026 - Aujourd'hui", role: "Prestataire", org: "KNR SERVICES BENIN - , Cotonou (12e Arr.)", desc: "Développement au sein de l'équipe produit et contribution aux plateformes web de l'entreprise." },
+    { date: "Avr. 2026 - Juil. 2026", role: "Placement professionnel", org: "KNR SERVICES BENIN - , Cotonou (12e Arr.)", desc: "Développement au sein de l'équipe produit et contribution aux plateformes web de l'entreprise." },
     { date: "Fév. 2026 - Mars 2026", role: "Participant", org: "Job Booster Bénin - Stage, Abomey-Calavi", desc: "Programme intensif orienté pratique : développement web et mobile (HTML, CSS, Bootstrap, JS, PHP, Symfony, Flutter)." },
     { date: "Juin 2025 - Août 2025", role: "Formateur en développement web", org: "T-PAPY - Temps partiel, Porto-Novo", desc: "Formation en développement web et bases de données relationnelles." },
     { date: "Fév. 2025 - Mai 2025", role: "Stagiaire développeur web", org: "BLEU LIFE TECH - Stage, Akpakpa", desc: "Conception de sites web statiques et dynamiques, hébergement et mise en ligne de projets." },
